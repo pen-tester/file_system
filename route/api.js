@@ -19,7 +19,7 @@ var file_route = require('./file/main');
 //Middleware for this router
 router.use(function origin_set (req,res, next){
     // console.log('Time: ', Date.now(), 'Requests: ', req);
-    console.log(req);
+    //console.log(req);
 
     if (req.method === 'OPTIONS') {
         //CORS sends the OPTION request first... So to enable this is important to work as API.

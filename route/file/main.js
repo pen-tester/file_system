@@ -95,7 +95,7 @@ var Config  = require('../../config/config');
 
 async function uploadfile(imagefile, user){ 
     // Use the mv() method to place the file somewhere on your server
-    var name = 'img'+Util.formatDate(new Date(), "yyyy_MM_dd_HH_mm_ss")+".jpg";
+    var name = 'img'+Util.formatDate(new Date(), "yyyy_MM_dd_HH_mm_ss")+".png";
     var filepath = path.join(__basedir,  '/../uploaded/'+name);
 
     await imagefile.mv(filepath);
