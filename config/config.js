@@ -5,7 +5,7 @@ var config = {
     jwt_key_gen_code:'sec_key_jwt_generation',
     pageentry:500,
     expire_session_days:3,
-    company_url:'https://www.creativeinnovationlab.com',
+    company_url:'https://www.thesmartercontact.com',
     notification_url:'http://127.0.0.1:9200'
 }
 
